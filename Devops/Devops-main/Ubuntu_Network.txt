@@ -1,1 +1,0 @@
-https://www.mvps.net/docs/how-to-fix-the-boot-error-stuck-at-starting-bpfilter-on-ubuntu-19-04/ #gdm lightdm slim change

@@ -1,7 +1,0 @@
-https://webnautes.tistory.com/1132 # opencv setting
-
-
-https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=sharonichoya&logNo=220817543315  # bin path add
-
-
-https://pythonq.com/so/c%23/1900450 # error solution

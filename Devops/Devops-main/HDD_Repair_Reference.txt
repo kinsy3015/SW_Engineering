@@ -1,3 +1,0 @@
-umount /dev/sda1
-sudo e2fsck -fp /dev/sda1
-systemctl status virtualbox.service
