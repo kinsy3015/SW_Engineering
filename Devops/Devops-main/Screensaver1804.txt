@@ -1,0 +1,9 @@
+sudo apt-get install xscreensaver xscreensaver-gl-extra xscreensaver-data-extra -y
+sudo apt-get remove gnome-screensaver -y
+
+# startup application add 
+# Name : xscreensaver
+# Command : xscreensaver -nosplash
+
+
+gsettings set com.canonical.Unity.Launcher launcher-position  Bottom

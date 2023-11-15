@@ -1,0 +1,17 @@
+
+
+
+
+
+
+reversing for DEB_PKG_Making:
+ ̃$ sudo vim /etc/apt/source.list
+ 1 deb-src => uncomment 
+ ̃$ sudo apt-get source package_name 
+ ̃$ ls 
+ package_name => dir
+ 
+
+ ̃$ tar x postfix_2.1.5-1_i386.deb => extract data.tar.gz & control.tar.gz ( not recommend )
+ ̃$ dpkg-deb --control postfix_2.1.5-1_i386.deb     => extract DEBIAN file ( recommend )
+ ̃$ dpkg-deb --extract postfix_2.1.5-1_i386.deb .   => extract source      ( recommend )

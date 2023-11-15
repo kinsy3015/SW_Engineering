@@ -1,0 +1,73 @@
+CPack Error: Problem running install command: /usr/bin/cmake --build . --target "preinstall"
+Please check /home/argos/Devops/catkin_ws/src/argosvue_hmc/build/_CPack_Packages/Linux/DEB/PreinstallOutput.log for errors
+
+Solution : 
+
+
+1. vim /opt/ros/melodic/include/ros/callback_queue_interface.h
+=> enum CallResult Success => redefine conflict => change Success1
+
+2. ( libraries link error & librarises-dev package not install erorr )
+
+/usr/lib/aarch64-linux-gnu/libffi.so.6: error adding symbols: DSO missing from command  line
+
+=>libffi-devel download => $sudo apt-get install libffi-dev -y && vim CMakeLists.txt => link_directories(/usr/lib/aarch64-linux-gnu) target_link_libraries( .... libffi.so.6)
+
+
+
+3. ( libraries link error & librarises-dev package not install erorr )
+
+/usr/bin/ld: /home/argos/Devops/catkin_ws/src/argosvue_hmc/stereo_xav/../lib/libglib-2.0.a(libglib_2_0_la-gregex.o): undefined reference to symbol 'pcre_study'
+/lib/aarch64-linux-gnu/libpcre.so.3: error adding symbols: DSO missing from command  line
+
+
+=>sudo apt-get install -y libpcre3-dev && vim CMakeLists.txt =>  link_directories(/lib/aarch64-linux-gnu) target_link_libraries( .... libpcre.so.3)
+
+
+
+
+
+==================================================================================================================
+using $nm -D .lib # debuging about print function list
+
+
+
+
+===================================================================================================================
+library version check :  dpkg -l | grep libxxxx
+.pc example : lib/pkgconfig/.pc
+
+prefix=/home/argos/argosvue_hmc
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libffi
+Description: Library ffi
+Version: 3.2.1
+Libs: -lffi
+Cflags:
+
+=================================================================================================================
+useful command : find / -iname cl.h 2>/dev/null
+
+
+
+
+=================================================================================================================
+cmake_minimum_required(VERSION 3.12)
+
+project (Foo)
+
+file (GLOB_RECURSE Foo_SOURCES CONFIGURE_DEPENDS "src/*.cpp")
+file (GLOB_RECURSE Foo_HEADERS CONFIGURE_DEPENDS "src/*.h")
+
+set (Foo_INCLUDE_DIRS "")
+foreach (_headerFile ${Foo_HEADERS})
+    get_filename_component(_dir ${_headerFile} PATH)
+    list (APPEND Foo_INCLUDE_DIRS ${_dir})
+endforeach()
+list (REMOVE_DUPLICATES Foo_INCLUDE_DIRS)
+
+add_executable(FooExe ${Foo_SOURCES})
+target_include_directories(FooExe PRIVATE ${Foo_INCLUDE_DIRS})

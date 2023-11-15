@@ -1,0 +1,43 @@
+===========================================Jobs===========================================================
+AWS Labs
+
+Opencv rebuild & sh correction
+
+DarkNet-ROS install
+
+
+===========================================Code===========================================================
+
+
+
+
+
+
+
+
+===========================================After===========================================================
+virtualbox 3 master node1 node1 execute
+inflearn lecture keep going
+
+
+
+===========================================Subject===========================================================
+
+OpenCV CMake flags dependency
+ResNet DarkNet YoLO PoseNet DarkNet-ros
+
+
+tensorrt pycuda cudnn analysis
+
+
+ShellScript opensource analysis ex) gcc, make configure etc...
+
+
+
+Hadoop BigData
+Kubernetes Docker Dockerfile Aws
+
+
+example code site:
+
+https://www.programcreek.com/java-api-examples/?action=search

@@ -1,0 +1,14 @@
+
+
+
+windows10 setting => powershell cli
+https://docs.microsoft.com/ko-kr/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v
+
+windows11 setting => batch file
+https://iboxcomein.com/windows11-home-hyper-v/#ftoc-heading-2
+
+customize linux or window another Virtual Computer or Virtual Machine => CBL-Mariner => kinds of wslg
+https://github.com/microsoft/CBL-Mariner/blob/1.0/toolkit/docs/quick_start/quickstart.md#prepare-vm // wsl2 - CBL-Mariner build doc
+
+hyper-v Virtual Computer gpu setting
+https://www.2cpu.co.kr/lec/4093?&page=1

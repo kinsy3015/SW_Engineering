@@ -1,0 +1,37 @@
+https://zoom.us/j/9144761050?pwd=dmM4dnpJU0F3U0Z1TmUyeFpYWWhHUT09
+http://www.opengl-tutorial.org/kr/beginners-tutorials/tutorial-4-a-colored-cube/
+https://www.jetsonhacks.com/category/hardware/
+https://youtu.be/sb7FoOGzb8E
+https://www.tensorflow.org/install/source#gpu
+https://github.com/NVIDIA-AI-IOT/jetracer
+https://yangorithm.tistory.com/142
+https://makingrobot.tistory.com/88?category=938629
+https://github.com/jupyter/notebook/issues/3629
+https://stackoverflow.com/questions/48493505/packagesnotfounderror-the-following-packages-are-not-available-from-current-cha
+https://river.me/blog/change-pip-version/
+https://developer.nvidia.com/cuda-11.0-download-archive?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exenetwork
+https://hunkim.github.io/ml/
+https://www.edwith.org/
+https://pythonkim.tistory.com/
+https://github.com/dusty-nv/jetson-inference
+https://ledgku.tistory.com/59
+https://learnopencv.com/install-opencv-4-on-ubuntu-18-04/
+https://leejw0083.tistory.com/entry/Darknet-YOLO-%EB%9E%80
+https://github.com/WongKinYiu
+https://github.com/JunnYu/mish-cuda
+https://github.com/wang-xinyu
+https://whiteknight3672.tistory.com/315
+https://jjeamin.github.io/darknet_book/INSTALL.html
+https://stackoverflow.com/questions/43301858/how-to-delete-swap-file-in-ubuntu
+https://developpaper.com/cpack-getting-started-guide/
+https://gitlab.kitware.com/cmake/community/-/wikis/doc/cpack/Packaging-With-CPack
+https://forums.developer.nvidia.com/t/nvidia-smi-has-failed-because-it-couldnt-communicate-with-the-nvidia-driver-make-sure-that-the-latest-nvidia-driver-is-installed-and-running/197141/
+https://taaewoo.tistory.com/entry/Docker-Docker%EB%A1%9C-CDH-%EB%B0%B0%ED%8F%AC%ED%8C%90-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0-1-%EA%B8%B0%EB%B3%B8-%EC%84%B8%ED%8C%85-%EB%B0%8F-Cloudera-Manager-Installer-%EB%8B%A4%EC%9A%B4-%EB%B0%9B%EA%B8%B0?category=862614
+https://ssup2.github.io/record/Hadoop_%EC%84%A4%EC%B9%98_%EC%84%A4%EC%A0%95_Ubuntu_18.04/
+https://kadensungbincho.tistory.com/29
+https://github.com/sabipeople/tegra/tree/master/tegra_multimedia_api/argus
+https://access.redhat.com/solutions/155873 # HDD error
+https://www.cyberciti.biz/faq/how-to-get-source-code-of-package-using-the-apt-command-on-debian-or-ubuntu/
+https://tutorialforlinux.com/2020/04/22/how-to-install-libtiff4-libtiff4-dev-on-ubuntu-20-04/3/ # install libtiff4 libtiff4-dev
+https://velog.io/@psh4204/Jetson-nano-3.-VNC-%EC%84%A4%EC%A0%95 #jetson nano vnc
+https://progtpoint.blogspot.com/2017/06/key-board-ascii-key-code.html
