@@ -1,0 +1,12 @@
+
+
+
+usb mount device check : disks
+
+
+
+
+reference site : 
+https://itsfoss.com/bootable-windows-usb-linux/
+
+https://superuser.com/questions/1518476/changing-the-cluster-size-of-a-hdd-on-linux-gparted-and-gnome-disks-dont-have

@@ -1,0 +1,15 @@
+#product : B3402FEA (ASUS FILP)
+#wireless model : mt-7921l
+#using mainline-gtk kernel upgrade
+
+
+$uname -r
+5.16.10-051610-generic
+
+
+# goto : https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/
+# linux-firmware-20220209.tar.gz (sig) download
+$git clone https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git
+$cd ~/Downloads/linux-firmware
+$sudo copy-firmware.sh
+$reboot

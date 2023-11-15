@@ -1,0 +1,19 @@
+How to list all installed packages :
+
+apt list --installed
+
+package information view :
+
+apt search <key word>
+
+package detail information search :
+
+apt show <package_name>
+
+system upgrade :
+
+apt full-upgrade
+
+find package :
+
+sudo apt-cache search <keyword>

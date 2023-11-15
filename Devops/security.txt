@@ -1,0 +1,12 @@
+sudo apt-get install libcrypto++-dev libcrypto++-doc libcrypto++-utils
+
+dev ide install destop server => request athor => using destop without internet
+
+
+before work => yesterday cli list => hand write cli list 구비
+
+
+computer format => external storage save ide installer => computer install without internet
+
+https://www.example-code.com/cpp/rsa.asp // apt crypto error
+https://github.com/stardust95/TinyCompiler/issues/2 // apt json error
